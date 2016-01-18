@@ -7,25 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		126DE091459F3FC8543DB87A /* Pods_Tablecloth_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD40A59CD01C55675E1245A /* Pods_Tablecloth_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		E835963C1BCAD39C00CF17CD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835963B1BCAD39C00CF17CD /* TableViewCell.swift */; };
+		E8A80BCF1BDABC5500A72C7A /* TableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BCE1BDABC5500A72C7A /* TableViewCellModel.swift */; };
+		E8A80BD11BDAC42F00A72C7A /* TableViewSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BD01BDAC42F00A72C7A /* TableViewSectionModel.swift */; };
+		E8A80BD31BDAC4BF00A72C7A /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BD21BDAC4BF00A72C7A /* TableViewModel.swift */; };
+		E8A80BD51BDACBA700A72C7A /* TableViewAccessoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BD41BDACBA700A72C7A /* TableViewAccessoryModel.swift */; };
+		E8A80BD71BDACD8900A72C7A /* CustomTableViewAccessoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BD61BDACD8900A72C7A /* CustomTableViewAccessoryModel.swift */; };
+		E8A80BD91BDAD7F000A72C7A /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BD81BDAD7F000A72C7A /* TableViewManager.swift */; };
 		EC4D501FABD76780663AB7B4 /* Pods_Tablecloth_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A697A43B180B32D0F8E07F71 /* Pods_Tablecloth_Example.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = Tablecloth;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C9D0748002406E3293415D0 /* Pods-Tablecloth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tablecloth_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tablecloth_Tests/Pods-Tablecloth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -38,13 +33,17 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = Tablecloth_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6DD40A59CD01C55675E1245A /* Pods_Tablecloth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tablecloth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A697A43B180B32D0F8E07F71 /* Pods_Tablecloth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tablecloth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43C429EFDF508F2F34C7314 /* Tablecloth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Tablecloth.podspec; path = ../Tablecloth.podspec; sourceTree = "<group>"; };
 		C1909C1CDCB0B8ACC0747060 /* Pods-Tablecloth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tablecloth_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tablecloth_Example/Pods-Tablecloth_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E835963B1BCAD39C00CF17CD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../Pod/Classes/TableViewCell.swift; sourceTree = "<group>"; };
+		E8A80BCE1BDABC5500A72C7A /* TableViewCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCellModel.swift; path = ../Pod/Classes/TableViewCellModel.swift; sourceTree = "<group>"; };
+		E8A80BD01BDAC42F00A72C7A /* TableViewSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewSectionModel.swift; path = ../Pod/Classes/TableViewSectionModel.swift; sourceTree = "<group>"; };
+		E8A80BD21BDAC4BF00A72C7A /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewModel.swift; path = ../Pod/Classes/TableViewModel.swift; sourceTree = "<group>"; };
+		E8A80BD41BDACBA700A72C7A /* TableViewAccessoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewAccessoryModel.swift; path = ../Pod/Classes/TableViewAccessoryModel.swift; sourceTree = "<group>"; };
+		E8A80BD61BDACD8900A72C7A /* CustomTableViewAccessoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewAccessoryModel.swift; path = ../Pod/Classes/CustomTableViewAccessoryModel.swift; sourceTree = "<group>"; };
+		E8A80BD81BDAD7F000A72C7A /* TableViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewManager.swift; path = ../Pod/Classes/TableViewManager.swift; sourceTree = "<group>"; };
 		FA6CD7922141A3DC19358731 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FE8D57C55BAEDC2ACE6EC431 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,14 +54,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4D501FABD76780663AB7B4 /* Pods_Tablecloth_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				126DE091459F3FC8543DB87A /* Pods_Tablecloth_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,9 +83,9 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				E83596391BCAD36200CF17CD /* Source */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Tablecloth */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				05B8A026406160AE7C58A547 /* Pods */,
 				403F4852951B8DC783959D82 /* Frameworks */,
@@ -105,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* Tablecloth_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,23 +122,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +130,28 @@
 				FE8D57C55BAEDC2ACE6EC431 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E83596391BCAD36200CF17CD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E835963A1BCAD37100CF17CD /* Classes */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E835963A1BCAD37100CF17CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E8A80BD81BDAD7F000A72C7A /* TableViewManager.swift */,
+				E835963B1BCAD39C00CF17CD /* TableViewCell.swift */,
+				E8A80BCE1BDABC5500A72C7A /* TableViewCellModel.swift */,
+				E8A80BD41BDACBA700A72C7A /* TableViewAccessoryModel.swift */,
+				E8A80BD61BDACD8900A72C7A /* CustomTableViewAccessoryModel.swift */,
+				E8A80BD01BDAC42F00A72C7A /* TableViewSectionModel.swift */,
+				E8A80BD21BDAC4BF00A72C7A /* TableViewModel.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,42 +177,18 @@
 			productReference = 607FACD01AFB9204008FA782 /* Tablecloth_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* Tablecloth_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Tablecloth_Tests" */;
-			buildPhases = (
-				2FEF0CA6837FDFE5ACA0B388 /* Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				445CFD3AACCBCD2CE19D1FD6 /* Embed Pods Frameworks */,
-				7BEFE2AC8DC0552A17410F55 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = Tablecloth_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -235,7 +206,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* Tablecloth_Example */,
-				607FACE41AFB9204008FA782 /* Tablecloth_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,13 +218,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,36 +237,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tablecloth_Example/Pods-Tablecloth_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2FEF0CA6837FDFE5ACA0B388 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		445CFD3AACCBCD2CE19D1FD6 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tablecloth_Tests/Pods-Tablecloth_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7475AA086AAA4EF76534C692 /* Embed Pods Frameworks */ = {
@@ -336,21 +269,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7BEFE2AC8DC0552A17410F55 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tablecloth_Tests/Pods-Tablecloth_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -358,28 +276,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E835963C1BCAD39C00CF17CD /* TableViewCell.swift in Sources */,
+				E8A80BD71BDACD8900A72C7A /* CustomTableViewAccessoryModel.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				E8A80BD11BDAC42F00A72C7A /* TableViewSectionModel.swift in Sources */,
+				E8A80BD91BDAD7F000A72C7A /* TableViewManager.swift in Sources */,
+				E8A80BD31BDAC4BF00A72C7A /* TableViewModel.swift in Sources */,
+				E8A80BD51BDACBA700A72C7A /* TableViewAccessoryModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				E8A80BCF1BDABC5500A72C7A /* TableViewCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* Tablecloth_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -490,7 +399,9 @@
 				INFOPLIST_FILE = Tablecloth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.Tablecloth-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -502,43 +413,9 @@
 				INFOPLIST_FILE = Tablecloth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.Tablecloth-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C9D0748002406E3293415D0 /* Pods-Tablecloth_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablecloth_Example.app/Tablecloth_Example";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1554AFA8B5E7C3501F949086 /* Pods-Tablecloth_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tablecloth_Example.app/Tablecloth_Example";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -559,15 +436,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Tablecloth_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

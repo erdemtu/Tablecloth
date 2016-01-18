@@ -9,14 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = "Tablecloth"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Tablecloth."
+  s.summary          = "Easier UITableView Management & Additional Features"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
+  I Didn't want to enter a description but I have to go on working.
+
+  Hopefully no more errors.
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/Tablecloth"
