@@ -1,0 +1,16 @@
+PODS:
+  - Tablecloth (0.1.0)
+
+DEPENDENCIES:
+  - Tablecloth (from `../`)
+
+EXTERNAL SOURCES:
+  Tablecloth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Tablecloth: 11f30a6bbd0f3022ea84d34cd7464cb0f2d087e4
+
+PODFILE CHECKSUM: 7cc6a97fb5513429f44e404a473ed13316566da7
+
+COCOAPODS: 1.1.0.rc.3

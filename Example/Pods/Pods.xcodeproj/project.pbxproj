@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017724C49E7EA915FC56CB4BAA9FA39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0A7A8D26461A8B419F3664EB4FD65997 /* CustomTableViewAccessoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D105BF19C0B4F2EC7F513BA8B17167C4 /* CustomTableViewAccessoryModel.swift */; };
+		1AF3BE4A0836C42AE6E2448364D7E149 /* Pods-Tablecloth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C760B30F32FACEA2AFC0AE3A3944E01 /* Pods-Tablecloth_Example-dummy.m */; };
+		1FDE1F29DA1387A58EF8187E8BD57AA5 /* TableViewSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC41540C766B504A0457795C4F5F677D /* TableViewSectionModel.swift */; };
+		44F2FF6C474FEB9BA20506017141302E /* Tablecloth.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC0DD9D38A2F629EF4922626AFD6788E /* Tablecloth.bundle */; };
+		4C3749EBB839503DA9B5DB7F87A29FBD /* Tablecloth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 505CB577649E2337EBBABC316B22CE82 /* Tablecloth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540BCF20F0F6F95B608140DE74F31686 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194B9B2C2D0E36356E1758095AC118B /* TableViewModel.swift */; };
+		5F57CF30DDCB07284E6E129735CF1534 /* TableViewAccessoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38150FA40821C18340EDA2AD7529F7 /* TableViewAccessoryModel.swift */; };
+		5F927C8AD38D376F4A909856798C3264 /* Tablecloth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BADEAF575D63D01371451E97BBE349 /* Tablecloth-dummy.m */; };
+		6AB6C32518111099FD98F150C29ED317 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECCF5437CA8BAFD48E4801D3E340701 /* TableViewCell.swift */; };
+		7BFEDFB54B69ED9B951FD1242D00F8DE /* TableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED2E29938D0AB7FA533AF7127D9D4D /* TableViewCellModel.swift */; };
+		83EF93986DCF280B6C847D2EE5C52537 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC820F8FE4F23C1218779010DAB1AC2 /* TableViewManager.swift */; };
+		9A35B308F39C4C31336C73672DB1EBAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EA26C690934672411C4FC477E896637A /* Pods-Tablecloth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B0698ABBF6AD2C1F8719C5E6CF5D1C /* Pods-Tablecloth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A796810B674E141C26360845E1A9B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 139CF77743119705ABF148346877CA41;
+			remoteInfo = Tablecloth;
+		};
+		A9B19735699D5C8385248DB69BA0DCDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B2A5CB08E4F93F7AA5C255755CB942;
+			remoteInfo = "Tablecloth-Tablecloth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D650AA8C6155C66979F7E650BEDB82 /* Tablecloth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Tablecloth.modulemap; sourceTree = "<group>"; };
+		096C6CA941F6AE619E3E6A97657FDA6C /* Pods-Tablecloth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tablecloth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		18FC2C75F37BF3C317212D2D1F7E0E63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7DF739FED0773F62E7D10B5BC3FB35 /* Tablecloth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tablecloth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E38150FA40821C18340EDA2AD7529F7 /* TableViewAccessoryModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewAccessoryModel.swift; sourceTree = "<group>"; };
+		35BE5E77F8ABD7584C2EEF088B88FEDB /* Pods-Tablecloth_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tablecloth_Example-resources.sh"; sourceTree = "<group>"; };
+		3EED2E29938D0AB7FA533AF7127D9D4D /* TableViewCellModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewCellModel.swift; sourceTree = "<group>"; };
+		4054B1EBE2CC1F384F4F6D7D91C7F022 /* Pods-Tablecloth_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tablecloth_Example.modulemap"; sourceTree = "<group>"; };
+		4BC820F8FE4F23C1218779010DAB1AC2 /* TableViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
+		505CB577649E2337EBBABC316B22CE82 /* Tablecloth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tablecloth-umbrella.h"; sourceTree = "<group>"; };
+		5DA8B25C2E271C9542EAB9A937371BEE /* ResourceBundle-Tablecloth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Tablecloth-Info.plist"; sourceTree = "<group>"; };
+		66F6A1CC9B6965603CB56737A9C1BE1B /* Pods-Tablecloth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tablecloth_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7ECCF5437CA8BAFD48E4801D3E340701 /* TableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7F45344E520976D9A789E3EC07092AC7 /* Pods-Tablecloth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tablecloth_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84114FC520C8C79A3FC18E5FBABEDE10 /* Tablecloth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tablecloth-prefix.pch"; sourceTree = "<group>"; };
+		8C760B30F32FACEA2AFC0AE3A3944E01 /* Pods-Tablecloth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tablecloth_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E6386D439245A5873E50C6D5FA3BF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B194B9B2C2D0E36356E1758095AC118B /* TableViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		B4069CFA899511900A10DB43F570BDF4 /* Pods_Tablecloth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tablecloth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0DD9D38A2F629EF4922626AFD6788E /* Tablecloth.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tablecloth.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B0698ABBF6AD2C1F8719C5E6CF5D1C /* Pods-Tablecloth_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tablecloth_Example-umbrella.h"; sourceTree = "<group>"; };
+		C8964DBEEEC65B9241BE6306217BE93E /* Pods-Tablecloth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tablecloth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8BADEAF575D63D01371451E97BBE349 /* Tablecloth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tablecloth-dummy.m"; sourceTree = "<group>"; };
+		CDAEE846258E3C1E73136BF2D1B3DBEF /* Pods-Tablecloth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tablecloth_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D105BF19C0B4F2EC7F513BA8B17167C4 /* CustomTableViewAccessoryModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomTableViewAccessoryModel.swift; sourceTree = "<group>"; };
+		DC41540C766B504A0457795C4F5F677D /* TableViewSectionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableViewSectionModel.swift; sourceTree = "<group>"; };
+		E324FA912FA74BF141298B79D9645C7A /* Tablecloth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tablecloth.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832724508F11BCEF72FBE00BE329CEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A35B308F39C4C31336C73672DB1EBAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA35EC182C8631681D5AB8594C2176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017724C49E7EA915FC56CB4BAA9FA39A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63E289EDAB385EF67A07C590416AE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BE534FB0677FC0321918B2FAD51D0EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D105BF19C0B4F2EC7F513BA8B17167C4 /* CustomTableViewAccessoryModel.swift */,
+				1E38150FA40821C18340EDA2AD7529F7 /* TableViewAccessoryModel.swift */,
+				7ECCF5437CA8BAFD48E4801D3E340701 /* TableViewCell.swift */,
+				3EED2E29938D0AB7FA533AF7127D9D4D /* TableViewCellModel.swift */,
+				4BC820F8FE4F23C1218779010DAB1AC2 /* TableViewManager.swift */,
+				B194B9B2C2D0E36356E1758095AC118B /* TableViewModel.swift */,
+				DC41540C766B504A0457795C4F5F677D /* TableViewSectionModel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F27A73A1E755AE546BD5A50787DD6C5D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AAAF5C0F59A6003D4B702A03437D2CAB /* Products */,
+				8A6493311F530495FFD5FA4BDBF91964 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6493311F530495FFD5FA4BDBF91964 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC486D3829E29CA9EB8E40F5FA6CED0D /* Pods-Tablecloth_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9106B60EE09964B7CBB54922DE81D859 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4BE534FB0677FC0321918B2FAD51D0EA /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		AAAF5C0F59A6003D4B702A03437D2CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4069CFA899511900A10DB43F570BDF4 /* Pods_Tablecloth_Example.framework */,
+				BC0DD9D38A2F629EF4922626AFD6788E /* Tablecloth.bundle */,
+				1C7DF739FED0773F62E7D10B5BC3FB35 /* Tablecloth.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B17D5CBF9A9BBC52EA78F835EACBEC3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FC2C75F37BF3C317212D2D1F7E0E63 /* Info.plist */,
+				5DA8B25C2E271C9542EAB9A937371BEE /* ResourceBundle-Tablecloth-Info.plist */,
+				08D650AA8C6155C66979F7E650BEDB82 /* Tablecloth.modulemap */,
+				E324FA912FA74BF141298B79D9645C7A /* Tablecloth.xcconfig */,
+				C8BADEAF575D63D01371451E97BBE349 /* Tablecloth-dummy.m */,
+				84114FC520C8C79A3FC18E5FBABEDE10 /* Tablecloth-prefix.pch */,
+				505CB577649E2337EBBABC316B22CE82 /* Tablecloth-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Tablecloth";
+			sourceTree = "<group>";
+		};
+		B7026FB3270CCEDB6821B6DE7C8AA021 /* Tablecloth */ = {
+			isa = PBXGroup;
+			children = (
+				9106B60EE09964B7CBB54922DE81D859 /* Pod */,
+				B17D5CBF9A9BBC52EA78F835EACBEC3A /* Support Files */,
+			);
+			name = Tablecloth;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC486D3829E29CA9EB8E40F5FA6CED0D /* Pods-Tablecloth_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4E6386D439245A5873E50C6D5FA3BF6 /* Info.plist */,
+				4054B1EBE2CC1F384F4F6D7D91C7F022 /* Pods-Tablecloth_Example.modulemap */,
+				C8964DBEEEC65B9241BE6306217BE93E /* Pods-Tablecloth_Example-acknowledgements.markdown */,
+				096C6CA941F6AE619E3E6A97657FDA6C /* Pods-Tablecloth_Example-acknowledgements.plist */,
+				8C760B30F32FACEA2AFC0AE3A3944E01 /* Pods-Tablecloth_Example-dummy.m */,
+				7F45344E520976D9A789E3EC07092AC7 /* Pods-Tablecloth_Example-frameworks.sh */,
+				35BE5E77F8ABD7584C2EEF088B88FEDB /* Pods-Tablecloth_Example-resources.sh */,
+				C7B0698ABBF6AD2C1F8719C5E6CF5D1C /* Pods-Tablecloth_Example-umbrella.h */,
+				CDAEE846258E3C1E73136BF2D1B3DBEF /* Pods-Tablecloth_Example.debug.xcconfig */,
+				66F6A1CC9B6965603CB56737A9C1BE1B /* Pods-Tablecloth_Example.release.xcconfig */,
+			);
+			name = "Pods-Tablecloth_Example";
+			path = "Target Support Files/Pods-Tablecloth_Example";
+			sourceTree = "<group>";
+		};
+		F27A73A1E755AE546BD5A50787DD6C5D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7026FB3270CCEDB6821B6DE7C8AA021 /* Tablecloth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4480D040927EA072C71F07A93487F0AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3749EBB839503DA9B5DB7F87A29FBD /* Tablecloth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE64AB657C57D9A137AC32931FC279 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA26C690934672411C4FC477E896637A /* Pods-Tablecloth_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		139CF77743119705ABF148346877CA41 /* Tablecloth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A517A61E1EBEDEF94AF59E628237901 /* Build configuration list for PBXNativeTarget "Tablecloth" */;
+			buildPhases = (
+				8BAE990EC8F9280602F9AE1DFD12840C /* Sources */,
+				832724508F11BCEF72FBE00BE329CEA3 /* Frameworks */,
+				02531D48F8C1D8A78F6DB595ACE63E3C /* Resources */,
+				4480D040927EA072C71F07A93487F0AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4523D2D4B79C8DAD4A3DD61F0307472 /* PBXTargetDependency */,
+			);
+			name = Tablecloth;
+			productName = Tablecloth;
+			productReference = 1C7DF739FED0773F62E7D10B5BC3FB35 /* Tablecloth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D8C85696C4EF91D6AFB4AAB4A8848CC /* Pods-Tablecloth_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87FC8EF84F186B173F9276AA91F1C1F /* Build configuration list for PBXNativeTarget "Pods-Tablecloth_Example" */;
+			buildPhases = (
+				FDE05F7EF0FF5881C1650D2FE7CF86CC /* Sources */,
+				ADA35EC182C8631681D5AB8594C2176D /* Frameworks */,
+				FFFE64AB657C57D9A137AC32931FC279 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B6A522E9BE9C7A11B7AE39C230DF156 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tablecloth_Example";
+			productName = "Pods-Tablecloth_Example";
+			productReference = B4069CFA899511900A10DB43F570BDF4 /* Pods_Tablecloth_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4B2A5CB08E4F93F7AA5C255755CB942 /* Tablecloth-Tablecloth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0126E1A284675165D085012B94EF02 /* Build configuration list for PBXNativeTarget "Tablecloth-Tablecloth" */;
+			buildPhases = (
+				04E28094459AF06A7CFE91CBA5855CBC /* Sources */,
+				F63E289EDAB385EF67A07C590416AE19 /* Frameworks */,
+				BDF0C1AA9F3D3C78CC0ED8957655C1CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tablecloth-Tablecloth";
+			productName = "Tablecloth-Tablecloth";
+			productReference = BC0DD9D38A2F629EF4922626AFD6788E /* Tablecloth.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AAAF5C0F59A6003D4B702A03437D2CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8C85696C4EF91D6AFB4AAB4A8848CC /* Pods-Tablecloth_Example */,
+				139CF77743119705ABF148346877CA41 /* Tablecloth */,
+				D4B2A5CB08E4F93F7AA5C255755CB942 /* Tablecloth-Tablecloth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02531D48F8C1D8A78F6DB595ACE63E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F2FF6C474FEB9BA20506017141302E /* Tablecloth.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF0C1AA9F3D3C78CC0ED8957655C1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E28094459AF06A7CFE91CBA5855CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAE990EC8F9280602F9AE1DFD12840C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7A8D26461A8B419F3664EB4FD65997 /* CustomTableViewAccessoryModel.swift in Sources */,
+				5F927C8AD38D376F4A909856798C3264 /* Tablecloth-dummy.m in Sources */,
+				5F57CF30DDCB07284E6E129735CF1534 /* TableViewAccessoryModel.swift in Sources */,
+				6AB6C32518111099FD98F150C29ED317 /* TableViewCell.swift in Sources */,
+				7BFEDFB54B69ED9B951FD1242D00F8DE /* TableViewCellModel.swift in Sources */,
+				83EF93986DCF280B6C847D2EE5C52537 /* TableViewManager.swift in Sources */,
+				540BCF20F0F6F95B608140DE74F31686 /* TableViewModel.swift in Sources */,
+				1FDE1F29DA1387A58EF8187E8BD57AA5 /* TableViewSectionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE05F7EF0FF5881C1650D2FE7CF86CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF3BE4A0836C42AE6E2448364D7E149 /* Pods-Tablecloth_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B6A522E9BE9C7A11B7AE39C230DF156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tablecloth;
+			target = 139CF77743119705ABF148346877CA41 /* Tablecloth */;
+			targetProxy = 3A796810B674E141C26360845E1A9B56 /* PBXContainerItemProxy */;
+		};
+		D4523D2D4B79C8DAD4A3DD61F0307472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Tablecloth-Tablecloth";
+			target = D4B2A5CB08E4F93F7AA5C255755CB942 /* Tablecloth-Tablecloth */;
+			targetProxy = A9B19735699D5C8385248DB69BA0DCDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81764AA384B55A2309F569E260EB4FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E324FA912FA74BF141298B79D9645C7A /* Tablecloth.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Tablecloth";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Tablecloth/ResourceBundle-Tablecloth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Tablecloth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		87CC6A629E839B0ABF2644A4A22DD2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E324FA912FA74BF141298B79D9645C7A /* Tablecloth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Tablecloth/Tablecloth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Tablecloth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Tablecloth/Tablecloth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Tablecloth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FD68F560DF117CFE67FCC9D54AFEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F6A1CC9B6965603CB56737A9C1BE1B /* Pods-Tablecloth_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tablecloth_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tablecloth_Example/Pods-Tablecloth_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tablecloth_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3AEA914D85B70A411C8513C66E855A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAEE846258E3C1E73136BF2D1B3DBEF /* Pods-Tablecloth_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tablecloth_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tablecloth_Example/Pods-Tablecloth_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tablecloth_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE93C6C087527C0B9BF61C4498D4CDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E324FA912FA74BF141298B79D9645C7A /* Tablecloth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Tablecloth/Tablecloth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Tablecloth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Tablecloth/Tablecloth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Tablecloth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A41FC6ABEFAF3846DAF8E2F930AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E324FA912FA74BF141298B79D9645C7A /* Tablecloth.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Tablecloth";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Tablecloth/ResourceBundle-Tablecloth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Tablecloth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0126E1A284675165D085012B94EF02 /* Build configuration list for PBXNativeTarget "Tablecloth-Tablecloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81764AA384B55A2309F569E260EB4FD8 /* Debug */,
+				FF0A41FC6ABEFAF3846DAF8E2F930AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A517A61E1EBEDEF94AF59E628237901 /* Build configuration list for PBXNativeTarget "Tablecloth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC6A629E839B0ABF2644A4A22DD2A1 /* Debug */,
+				DE93C6C087527C0B9BF61C4498D4CDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87FC8EF84F186B173F9276AA91F1C1F /* Build configuration list for PBXNativeTarget "Pods-Tablecloth_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AEA914D85B70A411C8513C66E855A9 /* Debug */,
+				91FD68F560DF117CFE67FCC9D54AFEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

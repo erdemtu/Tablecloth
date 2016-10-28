@@ -8,43 +8,43 @@
 
 import UIKit
 
-public class TableViewCellModel {
+open class TableViewCellModel {
     
-    public var cellSelection: ((AnyObject?) -> Void)?
+    open var cellSelection: ((Any?, IndexPath) -> Void)?
     
-    public func identifier() -> String? {
+    open func identifier() -> String? {
         return nil
     }
     
-    public func wrappedObject() -> AnyObject? {
+    open func wrappedObject() -> Any? {
         return nil
     }
     
-    public func cellFromTableView(tableView: UITableView) -> UITableViewCell? {
+    open func cellFromTableView(_ tableView: UITableView) -> UITableViewCell? {
         return nil
     }
     
-    public func cellHeight() -> CGFloat? {
+    open func cellHeight() -> CGFloat? {
         return TableViewCell.cellHeight()
     }
 
-    public func isEqualToCellModel(cellModel: TableViewCellModel) -> Bool {
+    open func isEqualToCellModel(_ cellModel: TableViewCellModel) -> Bool {
         if Mirror(reflecting: self).subjectType != Mirror(reflecting: cellModel).subjectType {
             return false
         }
-        if let identifier = identifier(), cellModelIdentifier = cellModel.identifier() {
+        if let identifier = identifier(), let cellModelIdentifier = cellModel.identifier() {
             return identifier == cellModelIdentifier
         }
         return true
     }
     
-    public func updateWithContentsOfCellModel(cellModel: TableViewCellModel) {
+    open func updateWithContentsOfCellModel(_ cellModel: TableViewCellModel) {
         cellSelection = cellModel.cellSelection
     }
     
-    public func selectCellModel() {
+    open func selectCellModelWithIndexPath(_ indexPath: IndexPath) {
         if let cellSelection = cellSelection {
-            cellSelection(wrappedObject())
+            cellSelection(wrappedObject(), indexPath)
         }
     }
     

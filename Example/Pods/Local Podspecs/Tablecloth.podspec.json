@@ -1,0 +1,25 @@
+{
+  "name": "Tablecloth",
+  "version": "0.1.0",
+  "summary": "Easier UITableView Management & Additional Features",
+  "description": "I Didn't want to enter a description but I have to go on working.\n\nHopefully no more errors.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Tablecloth",
+  "license": "MIT",
+  "authors": {
+    "Erdem Turançiftçi": "erdem.turanciftci@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Tablecloth.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Tablecloth": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

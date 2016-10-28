@@ -8,20 +8,20 @@
 
 import UIKit
 
-public class CustomTableViewAccessoryModel: TableViewAccessoryModel {
+open class CustomTableViewAccessoryModel: TableViewAccessoryModel {
  
     var height: CGFloat
-    var viewSetup: ((accessoryHeight: CGFloat) -> UIView)
+    var viewSetup: ((_ accessoryHeight: CGFloat) -> UIView)
     
-    public func accessoryHeight() -> CGFloat {
+    open func accessoryHeight() -> CGFloat {
         return height
     }
     
-    public func accessoryView() -> UIView {
-        return viewSetup(accessoryHeight: height)
+    open func accessoryView() -> UIView {
+        return viewSetup(height)
     }
     
-    public init(height: CGFloat, viewSetup: ((accessoryHeight: CGFloat) -> UIView)) {
+    public init(height: CGFloat, viewSetup: @escaping ((_ accessoryHeight: CGFloat) -> UIView)) {
         self.height = height
         self.viewSetup = viewSetup
     }

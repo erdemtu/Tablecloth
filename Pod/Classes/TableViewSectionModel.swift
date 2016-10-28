@@ -11,8 +11,8 @@ import Foundation
 final public class TableViewSectionModel {
     
     var cellModels: Array<TableViewCellModel>
-    var headerModel: TableViewAccessoryModel?
-    var footerModel: TableViewAccessoryModel?
+    public var headerModel: TableViewAccessoryModel?
+    public var footerModel: TableViewAccessoryModel?
     
     public init() {
         cellModels = Array<TableViewCellModel>()

@@ -8,11 +8,11 @@
 
 import UIKit
 
-public class TableViewCell: UITableViewCell {
+open class TableViewCell: UITableViewCell {
     
-    public var selectionColor: UIColor?
+    open var selectionColor: UIColor?
     
-    public override func setSelected(selected: Bool, animated: Bool) {
+    open override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         
         guard let selectionColor = self.selectionColor else { return }
@@ -21,11 +21,11 @@ public class TableViewCell: UITableViewCell {
             self.contentView.backgroundColor = selectionColor;
         }
         else {
-            self.contentView.backgroundColor = UIColor.clearColor();
+            self.contentView.backgroundColor = UIColor.clear;
         }
     }
     
-    public override func setHighlighted(selected: Bool, animated: Bool) {
+    open override func setHighlighted(_ selected: Bool, animated: Bool) {
         super.setHighlighted(selected, animated: animated)
         
         guard let selectionColor = self.selectionColor else { return }
@@ -34,7 +34,7 @@ public class TableViewCell: UITableViewCell {
             self.contentView.backgroundColor = selectionColor;
         }
         else {
-            self.contentView.backgroundColor = UIColor.clearColor();
+            self.contentView.backgroundColor = UIColor.clear;
         }
     }
 
@@ -43,23 +43,23 @@ public class TableViewCell: UITableViewCell {
     }
     
     public required init(reuseIdentifier: String) {
-        super.init(style: .Default, reuseIdentifier: reuseIdentifier)
+        super.init(style: .default, reuseIdentifier: reuseIdentifier)
         
-        selectionStyle = .None
-        separatorInset = UIEdgeInsetsZero
+        selectionStyle = .none
+        separatorInset = UIEdgeInsets.zero
         preservesSuperviewLayoutMargins = false
-        layoutMargins = UIEdgeInsetsZero
+        layoutMargins = UIEdgeInsets.zero
     }
     
     
-    public class func cellFromTableView(
-        tableView: UITableView,
+    open class func cellFromTableView(
+        _ tableView: UITableView,
         customConfig: ((TableViewCell) -> Void)?,
         customInit: (() -> TableViewCell)?)
         -> TableViewCell {
             
             let reuseIdentifier = self.reuseIdentifier()
-            var cell: TableViewCell? = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? TableViewCell
+            var cell: TableViewCell? = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier) as? TableViewCell
             
             if cell == nil {
                 if let customInit = customInit {
@@ -77,28 +77,28 @@ public class TableViewCell: UITableViewCell {
             return cell!
     }
     
-    public class func cellFromTableView(
-        tableView: UITableView,
+    open class func cellFromTableView(
+        _ tableView: UITableView,
         customConfig: ((TableViewCell) -> Void)?)
         -> TableViewCell {
             return cellFromTableView(tableView, customConfig: customConfig, customInit: nil)
     }
     
-    public class func cellFromTableView(
-        tableView: UITableView)
+    open class func cellFromTableView(
+        _ tableView: UITableView)
         -> TableViewCell {
             return cellFromTableView(tableView, customConfig: nil, customInit: nil)
     }
     
-    public class func reuseIdentifier() -> String {
+    open class func reuseIdentifier() -> String {
         return self.description()
     }
     
-    public class func cellWidth() -> CGFloat {
-        return UIScreen.mainScreen().bounds.size.width
+    open class func cellWidth() -> CGFloat {
+        return UIScreen.main.bounds.size.width
     }
     
-    public class func cellHeight() -> CGFloat {
+    open class func cellHeight() -> CGFloat {
         return 44.0
     }
 }

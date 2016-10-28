@@ -1,0 +1,6 @@
+framework module Tablecloth {
+  umbrella header "Tablecloth-umbrella.h"
+
+  export *
+  module * { export * }
+}
