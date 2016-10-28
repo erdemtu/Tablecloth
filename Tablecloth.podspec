@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "Tablecloth"
   s.version          = "0.1.0"
-  s.summary          = "Easier UITableView Management & Additional Features"
+  s.summary          = "Easier UITableView management with MVVM Architecture"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,14 +22,14 @@ Pod::Spec.new do |s|
   Hopefully no more errors.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Tablecloth"
+  s.homepage         = "https://github.com/erdemtu/Tablecloth"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Erdem Turançiftçi" => "erdem.turanciftci@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Tablecloth.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Erdem Turançiftçi" => "erdem@erdemtu.com" }
+  s.source           = { :git => "https://github.com/erdemtu/Tablecloth.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/netarum'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
