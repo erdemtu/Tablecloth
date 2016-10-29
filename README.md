@@ -14,6 +14,10 @@ UITableViewDelegate & UITableViewDatasource provides us with a powerful way to c
 but it is also very easy to make mistakes with it. With Tablecloth, you can work with a different abstraction;
 You build a model of your tableview content.
 
+## Requirements
+
+Tablecloth is written in Swift 3. This means you can only use with XCode 8 & in projects that use Swift 3.
+
 ## Installation
 
 Tablecloth is available through [CocoaPods](http://cocoapods.org). To install
