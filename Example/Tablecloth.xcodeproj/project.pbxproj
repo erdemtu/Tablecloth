@@ -12,6 +12,11 @@
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		E81A982D1DC4C09900F74540 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A982C1DC4C09900F74540 /* Item.swift */; };
+		E81A982F1DC4C0D200F74540 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A982E1DC4C0D200F74540 /* ItemCell.swift */; };
+		E81A98311DC4C0E300F74540 /* ItemCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A98301DC4C0E300F74540 /* ItemCellModel.swift */; };
+		E81A98331DC4C8CF00F74540 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A98321DC4C8CF00F74540 /* ButtonCell.swift */; };
+		E81A98351DC4C8DC00F74540 /* ButtonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A98341DC4C8DC00F74540 /* ButtonCellModel.swift */; };
 		E835963C1BCAD39C00CF17CD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E835963B1BCAD39C00CF17CD /* TableViewCell.swift */; };
 		E8A80BCF1BDABC5500A72C7A /* TableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BCE1BDABC5500A72C7A /* TableViewCellModel.swift */; };
 		E8A80BD11BDAC42F00A72C7A /* TableViewSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A80BD01BDAC42F00A72C7A /* TableViewSectionModel.swift */; };
@@ -32,6 +37,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6E28F07B642D6756CE18286D /* Pods_Tablecloth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tablecloth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43C429EFDF508F2F34C7314 /* Tablecloth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Tablecloth.podspec; path = ../Tablecloth.podspec; sourceTree = "<group>"; };
+		E81A982C1DC4C09900F74540 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E81A982E1DC4C0D200F74540 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E81A98301DC4C0E300F74540 /* ItemCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellModel.swift; sourceTree = "<group>"; };
+		E81A98321DC4C8CF00F74540 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		E81A98341DC4C8DC00F74540 /* ButtonCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCellModel.swift; sourceTree = "<group>"; };
 		E835963B1BCAD39C00CF17CD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../Pod/Classes/TableViewCell.swift; sourceTree = "<group>"; };
 		E8A80BCE1BDABC5500A72C7A /* TableViewCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCellModel.swift; path = ../Pod/Classes/TableViewCellModel.swift; sourceTree = "<group>"; };
 		E8A80BD01BDAC42F00A72C7A /* TableViewSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewSectionModel.swift; path = ../Pod/Classes/TableViewSectionModel.swift; sourceTree = "<group>"; };
@@ -97,6 +107,11 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				E81A982C1DC4C09900F74540 /* Item.swift */,
+				E81A982E1DC4C0D200F74540 /* ItemCell.swift */,
+				E81A98301DC4C0E300F74540 /* ItemCellModel.swift */,
+				E81A98321DC4C8CF00F74540 /* ButtonCell.swift */,
+				E81A98341DC4C8DC00F74540 /* ButtonCellModel.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -176,7 +191,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = "Erdem Turançiftçi";
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -267,13 +282,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81A982D1DC4C09900F74540 /* Item.swift in Sources */,
+				E81A98331DC4C8CF00F74540 /* ButtonCell.swift in Sources */,
 				E835963C1BCAD39C00CF17CD /* TableViewCell.swift in Sources */,
 				E8A80BD71BDACD8900A72C7A /* CustomTableViewAccessoryModel.swift in Sources */,
+				E81A982F1DC4C0D200F74540 /* ItemCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				E8A80BD11BDAC42F00A72C7A /* TableViewSectionModel.swift in Sources */,
+				E81A98311DC4C0E300F74540 /* ItemCellModel.swift in Sources */,
 				E8A80BD91BDAD7F000A72C7A /* TableViewManager.swift in Sources */,
 				E8A80BD31BDAC4BF00A72C7A /* TableViewModel.swift in Sources */,
 				E8A80BD51BDACBA700A72C7A /* TableViewAccessoryModel.swift in Sources */,
+				E81A98351DC4C8DC00F74540 /* ButtonCellModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				E8A80BCF1BDABC5500A72C7A /* TableViewCellModel.swift in Sources */,
 			);
@@ -389,7 +409,7 @@
 				INFOPLIST_FILE = Tablecloth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.Tablecloth-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdemtu.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
@@ -405,7 +425,7 @@
 				INFOPLIST_FILE = Tablecloth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.Tablecloth-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erdemtu.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
