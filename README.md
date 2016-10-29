@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/Tablecloth.svg?style=flat)](http://cocoapods.org/pods/Tablecloth)
 [![Platform](https://img.shields.io/cocoapods/p/Tablecloth.svg?style=flat)](http://cocoapods.org/pods/Tablecloth)
 
-## Usage
+<p align="center">
+<img height="160" src="Tablecloth Logo.png" />
+</p>
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Tablecloth makes working with tableviews easier.
 
-## Requirements
+UITableViewDelegate & UITableViewDatasource provides us with a powerful way to customize tableview behavior
+but it is also very easy to make mistakes with it. With Tablecloth, you can work with a different abstraction;
+You build a model of your tableview content.
 
 ## Installation
 
@@ -22,7 +26,7 @@ pod "Tablecloth"
 
 ## Author
 
-Erdem Turançiftçi, erdem.turanciftci@gmail.com
+Erdem Turançiftçi, erdem@erdemtu.com
 
 ## License
 
